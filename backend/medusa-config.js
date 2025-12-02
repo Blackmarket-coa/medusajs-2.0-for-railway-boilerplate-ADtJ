@@ -51,6 +51,9 @@ const medusaConfig = {
   },
   modules: [
     {
+      resolve: './modules/marketplace'
+    },
+    {
       key: Modules.FILE,
       resolve: '@medusajs/file',
       options: {
